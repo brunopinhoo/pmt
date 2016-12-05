@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="0"
+        android:padding="15sp">
+
+        <TableRow>
+            <TextView
+                android:text="@string/paciente_label"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/meem_result_pacient_name"
+                android:text="PACIENTE #"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:text="@string/teste_label"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/meem_result_test"
+                android:text="MEEM #1 (Mini Exame do Estado Mental)"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:text="@string/data_label"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/cdr_result_data_teste"
+                android:text="DD/MM/AAAA HH:MM"/>
+        </TableRow>
+    </TableLayout>
+
+    <TableLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20sp"
+        android:layout_margin="15sp"
+        android:background="@color/colorAccent">
+
+        <TableRow
+            android:gravity="center"
+            android:paddingBottom="5sp">
+            <TextView
+                android:text="@string/resultado_label"
+                android:layout_width="wrap_content"
+                android:textStyle="bold"
+                android:textSize="18sp"/>
+            <TextView
+                android:paddingLeft="15sp"
+                android:id="@+id/meem_result_value"
+                android:text="14 pontos"
+                android:textStyle="bold"
+                android:textSize="18sp"/>
+        </TableRow>
+        <TextView
+            android:id="@+id/meem_result_demencia_description"
+            android:text="Abaixo do esperado\n(Suspeita de Demência)"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textSize="18sp"/>
+    </TableLayout>
+
+    <TableLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20sp"
+        android:paddingRight="20sp"
+        android:stretchColumns="0,2">
+
+        <TextView
+            android:text="@string/detalhes"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TableRow>
+            <ImageButton android:id="@+id/btn_orientacao_label"
+                android:layout_width="15sp"
+                android:layout_height="15sp"
+                android:scaleX="0.7"
+                android:scaleY="0.7"
+                android:backgroundTint="@color/white"
+                android:src="@android:drawable/ic_menu_view" />
+            <TextView
+                android:paddingLeft="5sp"
+                android:text="@string/orientacaotemporal_label"
+                android:layout_width="wrap_content"/>
+            <TextView
+                android:paddingLeft="15sp"
+                android:id="@+id/meem_result_orientacao_value"
+                android:text="5 ponto" />
+
+        </TableRow>
+        <TableRow>
+            <ImageButton android:id="@+id/btn_registros_label"
+                android:layout_width="15sp"
+                android:layout_height="15sp"
+                android:scaleX="0.7"
+                android:scaleY="0.7"
+                android:backgroundTint="@color/white"
+                android:src="@android:drawable/ic_menu_view" />
+            <TextView
+                android:paddingLeft="5sp"
+                android:text="@string/registros_label"
+                android:layout_width="wrap_content"/>
+            <TextView
+                android:paddingLeft="15sp"
+                android:id="@+id/meem_result_registros_value"
+                android:text="1 ponto" />
+        </TableRow>
+        <TableRow>
+            <ImageButton android:id="@+id/btn_calculo_label"
+                android:layout_width="15sp"
+                android:layout_height="15sp"
+                android:scaleX="0.7"
+                android:scaleY="0.7"
+                android:backgroundTint="@color/white"
+                android:src="@android:drawable/ic_menu_view" />
+            <TextView
+                android:paddingLeft="5sp"
+                android:text="@string/calculo_label"
+                android:layout_width="wrap_content"/>
+            <TextView
+                android:paddingLeft="15sp"
+                android:id="@+id/meem_result_calculo_value"
+                android:text="2 ponto" />
+        </TableRow>
+        <TableRow>
+            <ImageButton android:id="@+id/btn_lembrancas_label"
+                android:layout_width="14sp"
+                android:layout_height="15sp"
+                android:scaleX="0.7"
+                android:scaleY="0.7"
+                android:backgroundTint="@color/white"
+                android:src="@android:drawable/ic_menu_view" />
+            <TextView
+                android:paddingLeft="5sp"
+                android:text="@string/lembrancas_label"
+                android:layout_width="wrap_content"/>
+            <TextView
+                android:paddingLeft="15sp"
+                android:id="@+id/meem_result_lembrancas_value"
+                android:text="1 ponto" />
+        </TableRow>
+        <TableRow>
+            <ImageButton android:id="@+id/btn_linguagem_label"
+                android:layout_width="15sp"
+                android:layout_height="15sp"
+                android:scaleX="0.7"
+                android:scaleY="0.7"
+                android:backgroundTint="@color/white"
+                android:src="@android:drawable/ic_menu_view" />
+            <TextView
+                android:paddingLeft="5sp"
+                android:text="@string/linguagem_label"
+                android:layout_width="wrap_content"/>
+            <TextView
+                android:paddingLeft="15sp"
+                android:id="@+id/meem_result_linguagem_value"
+                android:text="5 ponto" />
+        </TableRow>
+    </TableLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="15sp"
+        android:layout_margin="20sp"
+        android:background="@color/black">
+        <TextView
+            android:text="@string/cdr_result_success_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            android:textColor="@color/white"/>
+        <TextView
+            android:text="@string/cdr_result_success_2"
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:textColor="@color/white"/>
+    </LinearLayout>
+
+    <Button
+        android:text="@string/fechar"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_meem_result_fechar"
+        android:backgroundTint="@color/colorPrimary"
+        android:textColor="@color/white"/>
+
+</LinearLayout>
