@@ -1,0 +1,103 @@
+<resources>
+    <string name="app_name">Pocket Mental Test</string>
+    <string name="title_patients">Meus Pacientes</string>
+
+    <string name="default_text">Nome do Paciente</string>
+    <string name="option_not_found">Opção não encontrada</string>
+
+    <string name="main_config">Configurações</string>
+    <string name="main_help">Ajuda</string>
+
+    <string-array name="main_options_items">
+        <item>MEUS PACIENTES</item>
+        <item>RESULTADOS RECENTES</item>
+        <item>ADICIONAR EXAME</item>
+    </string-array>
+
+    <string-array name="meem_calculus_question">
+        <item>Sim</item>
+        <item>Não</item>
+    </string-array>
+
+    <string name="patient_add">Adicionar novo</string>
+    <string name="patient_search">Procurar</string>
+    <string name="name">Nome</string>
+    <string name="address">Endereço</string>
+    <string name="birthday">Data de Nascimento (DD/MM/YYYY)</string>
+    <string name="schooling">Escolaridade</string>
+    <string name="gender">Sexo</string>
+    <string name="phone">Telefone</string>
+    <string name="save">Gravar</string>
+    <string name="sus_card">Número do SUS</string>
+    <string name="patient_hint">Paciente...</string>
+    <string name="new_test_header">Selecione o tipo de teste que deseja aplicar ao paciente escolhido:</string>
+    <string name="teste_CDR">CDR (Avaliação Clínica de Demência)</string>
+    <string name="teste_RELOGIO">RELÓGIO (Teste do Relógio)</string>
+    <string name="teste_MEEM">MEEM (Mini Exame do Estado Mental)</string>
+    <string name="iniciar">INICIAR</string>
+    <string name="avaliacao">Avaliação:</string>
+    <string name="cdr_intro_explanation">Entrevistar o paciente e avaliá-lo de acordo com os critérios abaixo:</string>
+    <string name="gravar_entrevista">Gravar Entrevista</string>
+    <string name="observacoes">Observações...</string>
+    <string name="anterior">Anterior</string>
+    <string name="proximo">Próximo</string>
+    <string name="paciente_label">Paciente:</string>
+    <string name="teste_label">Teste:</string>
+    <string name="data_label">Aplicado em:</string>
+    <string name="resultado_label">Resultado:</string>
+    <string name="detalhes">Detalhes:</string>
+    <string name="memoria_label">Memória CDR:</string>
+    <string name="orientation_label">Orientação CDR:</string>
+    <string name="problemsolving_label">Julgamento e solução de problemas CDR:</string>
+    <string name="comunidade_label">Assuntos na Comunidade CDR:</string>
+    <string name="lazer_label">Lazer e Atividades no Lar CDR:</string>
+    <string name="cuidadospess_label">Cuidados Pessoais CDR:</string>
+    <string name="cdr_result_success_1">Teste incluído com sucesso!</string>
+    <string name="cdr_result_success_2">Para consultar novamente, acesse a tabela de resultados no menu principal</string>
+    <string name="fechar">FECHAR</string>
+    <string name="avaliacao_atribuida">Avaliação atribuída:</string>
+    <string name="ouvir_entrevista">Ouvir entrevista</string>
+    <string name="observacoes_label">Observações:</string>
+    <string name="salvar_observacoes">Salvar Observações</string>
+    <string name="birthday_small">Nascido em</string>
+    <string name="sus_card_small">SUS</string>
+    <string name="add_test">Adicionar Teste</string>
+    <string name="patient_tests">Testes do Paciente</string>
+    <string name="patient_exams">Exames do Paciente</string>
+    <string name="patient_edit">Editar</string>
+    <string name="meem_description">Selecione cada questão respondida corretamente pelo paciente</string>
+    <string name="meem_calculus_question">O paciente tem facilidade em operar contas?</string>
+    <string name="meem_ling1_imagem_checkbox">Paciente reconheceu objetos conforme apontado.</string>
+    <string name="meem_ling1_imagem_checkbox_inst">Clique no botão abaixo, aguarde as imagens aparecerem. Aponte cada um dos dois objetos da imagem e observe se o paciente os reconheceu conforme apontado.</string>
+    <string name="mostrar_imagem">Mostrar Imagem</string>
+    <string name="meem_ling1_frase_checkbox">Paciente repetiu a frase:</string>
+    <string name="meem_ling1_frase_checkbox_inst">\"Nem aqui, nem ali, nem lá.\"</string>
+    <string name="linguagem_parte_1">Linguagem (parte 1)</string>
+    <string name="meem_description2">Selecione cada questão respondida corretamente pelo paciente. Serão necessárias folhas, lápis e algum apoio (mesa) para essa fase</string>
+    <string name="linguagem_parte_2">Linguagem (parte 2)</string>
+    <string name="meem_ling2_comando">Paciente seguiu ao comando:</string>
+    <string name="meem_ling2_comando1">\"Pegue o papel com a mão direita\"</string>
+    <string name="meem_ling2_comando2">\"Dobre o papel ao meio\"</string>
+    <string name="meem_ling2_comando3">\"Coloque o papel na mesa\"</string>
+    <string name="meem_ling2_leucomando">Paciente leu e obedeceu ao comando:</string>
+    <string name="meem_ling2_comando_inst">Clique no botão abaixo, aguarde o comando ser exibido e mostre o aparelho ao paciente.</string>
+    <string name="mostrar_comando">Mostrar Comando</string>
+    <string name="meem_ling2_escreveufrase">Paciente escreveu uma frase de autoria:</string>
+    <string name="meem_ling2_escrita_inst">A frase deve conter sujeito, objeto e fazer sentido. Ignorar erros de ortografia!</string>
+    <string name="arquivar_frase_paciente">Arquivar frase do paciente (opcional)</string>
+    <string name="linguagem_parte_3">Linguagem (parte 3)</string>
+    <string name="meem_description3">Selecione se a ação foi executada corretamente. Serão necessários papel e lápis nesse estágio.</string>
+    <string name="meem_ling3_copiou">Paciente copiou o desenho corretamente.</string>
+    <string name="arquivar_desenho_paciente">Arquivar desenho do paciente (opcional)</string>
+    <string name="finalizar">Finalizar</string>
+    <string name="orientacaotemporal_label">Orientação Temporal Espacial:</string>
+    <string name="registros_label">Registros:</string>
+    <string name="calculo_label">Atenção e Cálculo:</string>
+    <string name="lembrancas_label">Lembranças:</string>
+    <string name="linguagem_label">Linguagem:</string>
+
+    <string name="new_patient">Novo paciente</string>
+    <string name="edit_patient">Editar Paciente</string>
+    <string name="action_sendemail">Enviar Resultados</string>
+
+</resources>
