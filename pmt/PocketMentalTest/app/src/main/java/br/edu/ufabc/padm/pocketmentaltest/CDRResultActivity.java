@@ -18,6 +18,10 @@ import br.edu.ufabc.padm.pocketmentaltest.model.Patients;
 import br.edu.ufabc.padm.pocketmentaltest.model.PatientsDAO;
 import br.edu.ufabc.padm.pocketmentaltest.model.Result;
 
+/**
+ * Created by victor on 12/4/16.
+ */
+
 public class CDRResultActivity extends AppCompatActivity {
 
     private double[] results;

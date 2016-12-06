@@ -1,0 +1,7 @@
+#Tue Dec 06 01:00:21 BRST 2016
+base.0=C\:\\Users\\bpinh\\pmt\\pmt\\PocketMentalTest\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_3568e9c173ad341b2853f04b7de6befb24df69dd
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=C\:\\Users\\bpinh\\pmt\\pmt\\PocketMentalTest\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_30344c58126fed03aae94564e5fddf8894138d63\\classes.dex
+base.1=C\:\\Users\\bpinh\\pmt\\pmt\\PocketMentalTest\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_30344c58126fed03aae94564e5fddf8894138d63
+file.0=C\:\\Users\\bpinh\\pmt\\pmt\\PocketMentalTest\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_3568e9c173ad341b2853f04b7de6befb24df69dd\\classes.dex

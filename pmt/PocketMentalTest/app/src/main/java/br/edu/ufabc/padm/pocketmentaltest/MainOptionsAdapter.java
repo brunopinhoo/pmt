@@ -9,7 +9,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 /**
- * Created by Alan on 11/11/2016.
+ * Created by bpinh on 11/11/2016.
  */
 
 public class MainOptionsAdapter extends BaseAdapter {

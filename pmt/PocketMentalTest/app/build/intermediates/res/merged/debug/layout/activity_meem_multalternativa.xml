@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15sp">
+
+    <TextView
+        android:text="Nome do Teste"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/meem_add_test_title" />
+
+    <TextView
+        android:text="@string/meem_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:paddingTop="15sp"
+        android:text="Pergunta do teste?"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/meem_add_test_question" />
+
+    <CheckBox
+        android:text="CheckBox1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/meem_add_checkBox1" />
+
+    <CheckBox
+        android:text="CheckBox2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/meem_add_checkBox2" />
+
+    <CheckBox
+        android:text="CheckBox3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/meem_add_checkBox3" />
+
+    <CheckBox
+        android:text="CheckBox4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/meem_add_checkBox4" />
+
+    <CheckBox
+        android:text="CheckBox5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/meem_add_checkBox5" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:text="@string/anterior"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/meem_add_button_ant"
+            android:layout_weight="1" />
+
+        <Button
+            android:text="@string/proximo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/meem_add_button_prox"
+            android:backgroundTint="@color/colorPrimary"
+            android:textColor="@color/white"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+</LinearLayout>

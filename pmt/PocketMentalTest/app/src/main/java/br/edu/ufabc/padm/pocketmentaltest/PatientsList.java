@@ -16,6 +16,10 @@ import java.util.ArrayList;
 import br.edu.ufabc.padm.pocketmentaltest.model.Patients;
 import br.edu.ufabc.padm.pocketmentaltest.model.PatientsDAO;
 
+/**
+ * Created by bpinh on 12/4/16.
+ */
+
 public class PatientsList extends AppCompatActivity {
     ListView lista;
     PatientsDAO dao;

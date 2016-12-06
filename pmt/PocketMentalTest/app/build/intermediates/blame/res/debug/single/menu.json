@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "C:\\Users\\bpinh\\pmt\\pmt\\PocketMentalTest\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_main.xml",
+        "source": "C:\\Users\\bpinh\\pmt\\pmt\\PocketMentalTest\\app\\src\\main\\res\\menu\\menu_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\bpinh\\pmt\\pmt\\PocketMentalTest\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_cdr_results.xml",
+        "source": "C:\\Users\\bpinh\\pmt\\pmt\\PocketMentalTest\\app\\src\\main\\res\\menu\\menu_cdr_results.xml"
+    },
+    {
+        "merged": "C:\\Users\\bpinh\\pmt\\pmt\\PocketMentalTest\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_patients_list.xml",
+        "source": "C:\\Users\\bpinh\\pmt\\pmt\\PocketMentalTest\\app\\src\\main\\res\\menu\\menu_patients_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\bpinh\\pmt\\pmt\\PocketMentalTest\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_patient_details.xml",
+        "source": "C:\\Users\\bpinh\\pmt\\pmt\\PocketMentalTest\\app\\src\\main\\res\\menu\\menu_patient_details.xml"
+    }
+]

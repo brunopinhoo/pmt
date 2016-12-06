@@ -3,8 +3,9 @@ package br.edu.ufabc.padm.pocketmentaltest.model;
 import java.io.Serializable;
 
 /**
- * Created by leonardobenedeti on 02/05/15.
+ * Created by bpinh on 12/4/16.
  */
+
 public class Patients implements Serializable {
 
     private Long id;

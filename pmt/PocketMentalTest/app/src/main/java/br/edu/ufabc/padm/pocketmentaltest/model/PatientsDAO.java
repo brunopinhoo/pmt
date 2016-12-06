@@ -10,6 +10,10 @@ import android.util.Log;
 
 import java.util.ArrayList;
 
+/**
+ * Created by bpinh on 12/4/16.
+ */
+
 public class PatientsDAO extends SQLiteOpenHelper {
 
     private static PatientsDAO dao;

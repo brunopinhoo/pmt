@@ -13,6 +13,10 @@ import android.widget.Toast;
 import br.edu.ufabc.padm.pocketmentaltest.model.Patients;
 import br.edu.ufabc.padm.pocketmentaltest.model.PatientsDAO;
 
+/**
+ * Created by bpinh on 12/4/16.
+ */
+
 public class TesteMainActivity extends AppCompatActivity {
 
     private PatientsDAO dao;
@@ -32,7 +36,7 @@ public class TesteMainActivity extends AppCompatActivity {
         this.context = this;
         dao = PatientsDAO.newInstance(this);
 
-        // get patient from DAO with the given ID from intent
+        //get patient from DAO with the given ID from intent
         //long id = getIntent().getExtras().getLong("patientId");
         Intent intent = getIntent();
         Bundle dados;
@@ -42,8 +46,9 @@ public class TesteMainActivity extends AppCompatActivity {
 
         id = dados.getString("patientId").toString();
 
-        Toast toast = Toast.makeText(context, id+" teste do ID - remover antes de submeter", Toast.LENGTH_SHORT);
-        toast.show();
+        //Toast para teste da passagem de dados pelo intent
+        /*Toast toast = Toast.makeText(context, id+" teste do ID - remover antes de submeter", Toast.LENGTH_SHORT);
+        toast.show();*/
 
 
         this.patient = dao.getPatientById(id);
